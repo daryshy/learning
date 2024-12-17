@@ -1,0 +1,19 @@
+header {
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* отступы внутри элемента 0 - верх,низ; 70px - лево право */
+    /* полный синтаксис padding: 0 0 0 0 верх право низ лево (по часовой)*/
+    /* ещё есть вариант padding-left, right, top, bottom, если нужно конкретный внутренний отступ */
+    padding: 0 70px;
+}
+
+header div {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    /* gap это расстояние между элементами header div */
+    gap: 40px;
+}

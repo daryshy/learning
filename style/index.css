@@ -1,0 +1,11 @@
+@import url("header.css");
+@import url("podcast.css");
+@import url("body.css");
+
+/* добавление шрифта, "../-возврат на папку назад ./-текущая папка*/
+@font-face {
+    font-family: "DMSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/dm_sans/DMSans-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: #191919;
+    font-family: "DMSans";
+}
+
+* {
+    box-sizing: border-box;
+}

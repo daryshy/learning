@@ -1,0 +1,19 @@
+.podcaster {
+    width: 60%;
+    height: 520px;
+}
+
+.next {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    padding: 50px 40px;
+    gap: 60px;
+
+}
+
+.take {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+}
