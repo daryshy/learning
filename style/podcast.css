@@ -1,19 +1,31 @@
-.podcaster {
-    width: 60%;
+.podcast-img {
     height: 520px;
 }
 
-.next {
+.podcast-container {
     display: flex;
     color: #FFFFFF;
     justify-content: space-between;
     padding: 50px 40px;
-    gap: 60px;
+    gap: 40px;
 
 }
 
-.take {
-    display: flex;
-    align-items: center;
+.text-right {
     font-size: 70px;
+}
+
+.text-right span {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links div {
+    display: flex;
+    gap: 15px;
 }
