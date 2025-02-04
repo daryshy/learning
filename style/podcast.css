@@ -2,7 +2,7 @@
     height: 520px;
 }
 
-.podcast-container {
+.podcast {
     display: flex;
     color: #FFFFFF;
     justify-content: space-between;

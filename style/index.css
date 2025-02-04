@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("podcast.css");
 @import url("body.css");
+@import url("episodes.css");
 
 /* добавление шрифта, "../-возврат на папку назад ./-текущая папка*/
 @font-face {
@@ -8,4 +9,14 @@
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/dm_sans/DMSans-Regular.ttf") format("truetype");
+}
+
+button {
+    height: 51px;
+    background-color: #118DA8;
+    color: azure;
+    border-radius: 6px;
+    border: 0;
+    padding: 12px 20px;
+    font-size: 17px;
 }

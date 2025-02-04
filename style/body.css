@@ -2,6 +2,11 @@ body {
     margin: 0;
     background-color: #191919;
     font-family: "DMSans";
+    /* отступы внутри элемента 0 - верх,низ; 70px - лево право */
+    /* полный синтаксис padding: 0 0 0 0 верх право низ лево (по часовой)*/
+    /* ещё есть вариант padding-left, right, top, bottom, если нужно конкретный внутренний отступ */
+    padding: 0 70px;
+    color: #FFFFFF;
 }
 
 * {
