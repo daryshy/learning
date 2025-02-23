@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180;
+    gap: 33px;
+
+    &>div {
+        display: flex;
+        gap: 33px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button {
+        border-radius: 400px;
+        width: 112px;
+        height: 112px;
+
+        p {
+            position: relative;
+            bottom: 4px;
+            /* "ctrl /" для заметок */
+            /* position - свойство элемента, позволяюшее пенять его положение */
+            font-size: 67px;
+        }
+    }
+
+    p:nth-child(2) {
+        font-size: 18px;
+        color: #118DA8;
+    }
+
+    p:nth-child(3) {
+        font-size: 65px;
+    }
+
+    p:nth-child(4) {
+        font-size: 22px;
+        color: gray;
+    }
+
+    p:nth-child(5) {
+        font-size: 22px;
+        color: gray;
+    }
+
+}

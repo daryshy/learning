@@ -2,6 +2,10 @@
 @import url("podcast.css");
 @import url("body.css");
 @import url("episodes.css");
+@import url("about.css");
+@import url("contact.css");
+@import url("reviews.css");
+@import url("footer.css");
 
 /* добавление шрифта, "../-возврат на папку назад ./-текущая папка*/
 @font-face {
@@ -19,4 +23,5 @@ button {
     border: 0;
     padding: 12px 20px;
     font-size: 17px;
+    width: fit-content;
 }

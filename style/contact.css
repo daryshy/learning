@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 32px;
+    margin-top: 180px;
+    margin-bottom: 70px;
+    padding: 60px;
+
+    &>div {
+        p:nth-child(1) {
+            font-size: 18px;
+            color: #118DA8;
+        }
+
+        p:nth-child(2) {
+            font-size: 72px;
+            width: 430px;
+
+        }
+
+        &:first-child {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px
+        }
+    }
+
+    input {
+        width: 512px;
+        height: 82px;
+        background-color: #191919;
+        color: white;
+        font-size: 24px;
+        border: none;
+        border-radius: 6px;
+        padding: 15px;
+    }
+}

@@ -1,5 +1,67 @@
 .episodes-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+
+    h1 {
+        font-size: 64px;
+        font-weight: lighter;
+    }
+}
+
+.episodes-list {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+
+    /* & операнд или (И) означает что мы берем родителя */
+    /* в данном случае родитель это .episodes-list*/
+    /* буквально .episodes-list > div */
+    /* знак > означает, что мы задаём стиль только внутри родителя */
+    /* но не глубже .episodes-list */
+    /* если напишем так, то всем дивам глубже присвоется стиль */
+    /* div {
+
+    } */
+    &>div {
+        background-color: black;
+        padding: 40px;
+        display: flex;
+        gap: 53px;
+        border-radius: 32px;
+
+        &>div {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        p:nth-child(1) {
+            /*nth-child(n) псевдокласс позволяет отобрать n-ый элемент */
+            background-color: #191919;
+            border-radius: 6px;
+            color: #ffffff;
+            font-size: 16px;
+            width: fit-content;
+            /* fit-content - длина элемента соотвествует длине текста */
+            padding: 4px 16px;
+        }
+
+        p:nth-child(2) {
+            font-size: 17px;
+            color: #118DA8;
+        }
+
+        p:nth-child(3) {
+            font-size: 64px;
+            width: 701px;
+        }
+
+        p:nth-child(4) {
+            font-size: 21px;
+            color: gray;
+        }
+    }
 
 }

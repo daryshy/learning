@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    padding-right: 10%;
+
+    div:nth-of-type(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 17px;
+    }
+
+    div:nth-of-type(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 17px;
+    }
+
+    div:nth-of-type(4) {
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+}
