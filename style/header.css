@@ -15,16 +15,3 @@ header div {
     gap: 40px;
 
 }
-
-a[href^="#"] {
-    color: white;
-    text-decoration: none;
-}
-
-header p:hover,
-a:hover {
-    /* hover - псевдоэлемент, который отслеживает наведение курсора мыши на элемент */
-    color: #118DA8;
-    cursor: pointer;
-    /* курсор -атрибут для вида курcора при наведении на элемент */
-}

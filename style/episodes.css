@@ -15,6 +15,10 @@
     gap: 60px;
     flex-direction: column;
 
+    img {
+        height: 380px;
+    }
+
     /* & операнд или (И) означает что мы берем родителя */
     /* в данном случае родитель это .episodes-list*/
     /* буквально .episodes-list > div */
@@ -28,6 +32,7 @@
         background-color: black;
         padding: 40px;
         display: flex;
+        align-items: center;
         gap: 53px;
         border-radius: 32px;
 
@@ -55,7 +60,6 @@
 
         p:nth-child(3) {
             font-size: 64px;
-            width: 701px;
         }
 
         p:nth-child(4) {

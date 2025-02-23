@@ -24,4 +24,41 @@ button {
     padding: 12px 20px;
     font-size: 17px;
     width: fit-content;
+
+    &.neon-btn {
+        border: 1px solid;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 15px 30px;
+        transition: 0.2s;
+        margin-right: 100px;
+
+        &.neon-btn--blue {
+            color: #4cc9f0;
+        }
+
+        &.neon-btn--blue:hover {
+            background-color: #4cc9f0;
+            color: #fff;
+            border: 1px solid #4cc9f0;
+            box-shadow: 10px 10px 100px 6px #4cc9f0;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+a[href^="#"] {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    /* hover - псевдоэлемент, который отслеживает наведение курсора мыши на элемент */
+    color: #118DA8;
+    cursor: pointer;
+    /* курсор -атрибут для вида курcора при наведении на элемент */
 }
